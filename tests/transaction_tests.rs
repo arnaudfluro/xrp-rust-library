@@ -19,7 +19,7 @@ async fn test_send_and_verify_token_flow() {
     let currency_code = "juniorXRPLTest".to_string();
 
     //Provider
-    let provider = Provider::new("https://clio.altnet.rippletest.net:51234/".to_string());
+    let provider = Provider::new("https://testnet.xrpl-labs.com/".to_string());
 
     //Build Transaction
     let transaction = Transaction::build_transaction(
